@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="resources/index.css" rel="stylesheet">
+    <title>7 Wonders Scoring</title>
+</head>
+
+<body>
+    <h1>7 Wonders Scorecard</h1>
+    <div id="scoreCardDiv">
+        <form name="wondersCalculator">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Player 1</th>
+                        <th>Player 3</th>
+                        <th>Player 4</th>
+                        <th>Player 4</th>
+                        <th>Player 5</th>
+                        <th>Player 6</th>
+                        <th>Player 7</th>
+                        <th>Player 8</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="militaryRow">
+                        <td>Military</td>
+                        <td><input name="miltaryPlayerOne" id="miltaryPlayerOne" class="scoreInput" type="number" min="0" value="5"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="armadaRow">
+                        <td>Armada</td>
+                        <td><input name="armadaPlayerOne" id="armadaPlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="coinRow">
+                        <td>Coins & Minus Points</td>
+                        <td><input name="coinPlayerOne" id="coinPlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="wonderRow">
+                        <td>Wonders Board</td>
+                        <td><input name="wonderPlayerOne" id="wonderPlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="blueRow">
+                        <td>Blue Cards</td>
+                        <td><input name="bluePlayerOne" id="bluePlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="yellowRow">
+                        <td>Yellow Cards</td>
+                        <td><input name="yellowPlayerOne" id="yellowPlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="greenRow">
+                        <td>Green Cards</td>
+                        <td><input name="greenPlayerOne" id="greenPlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="purpleRow">
+                        <td>Purple Cards</td>
+                        <td><input name="purplePlayerOne" id="purplePlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="boatRow">
+                        <td>Boats & Islands</td>
+                        <td><input name="boatPlayerOne" id="boatPlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="leaderRow">
+                        <td>Leaders</td>
+                        <td><input name="leaderPlayerOne" id="leaderPlayerOne" class="scoreInput" type="number" min="0" value="0"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                    <tr class="blackRow">
+                        <td>Black Cards</td>
+                        <td><input name="blackPlayerOne" id="blackPlayerOne" class="scoreInput" type="number" min="0" value="10"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>TOTAL</td>
+                        <td class="totalScore" id="scorePlayerOne"></td>
+                        <td class="totalScore"><p id="scorePlayerTwo">0</p></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                        <td><input class="scoreInput" type="number"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </div>
+    <button id="b" > Click me </button><br>
+    <button onclick="myFunction()">Try it</button>
+
+
+    <script src="resources/index.js"></script>
+
+</body>
+</html>
