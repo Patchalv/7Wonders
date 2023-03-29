@@ -6,8 +6,8 @@ This is a game that I frequently play with friends, to the point that we've run 
 
 To Do:
 -----
-- [] Tidy up the javaScript.
-- [] Add ability to add/remove columns so that anywhere between 3-8 players could be scored.
-- [] 1st, 2nd and 3rd bage added at the bottom to indicate in what position each player is in. 
-- [] Add a backend functionality so that scores can be saved and used for analytics, etc. 
+- [ ] Tidy up the javaScript.
+- [ ] Add ability to add/remove columns so that anywhere between 3-8 players could be scored.
+- [ ] 1st, 2nd and 3rd bage added at the bottom to indicate in what position each player is in. 
+- [ ] Add a backend functionality so that scores can be saved and used for analytics, etc. 
 
