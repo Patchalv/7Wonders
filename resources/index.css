@@ -1,5 +1,48 @@
+:root {
+    --military-dark: rgba(181, 5, 11, .7);
+    --military-light: rgba(181, 5, 11, .5);
+    --armada-dark: rgba(41, 128, 185, .7);
+    --armada-light: rgba(41, 128, 185, .5);
+    --coin-dark: rgba(249, 249, 134, 1);
+    --coin-light: rgba(249, 249, 134, .5);
+    --blue-dark: rgba(41, 128, 185, .7);
+    --blue-light: rgba(41, 128, 185, .5);
+    --yellow-dark: rgba(241, 196, 15, .9);
+    --yellow-light: rgba(241, 196, 15, .5);
+    --green-dark: rgba(39, 174, 96, .9);
+    --green-light: rgba(39, 174, 96, .5);
+    --purple-dark: rgba(155, 89, 182, .9);
+    --purple-light: rgba(155, 89, 182, .5);
+    --boats-dark: rgba(94, 196, 212, .9);
+    --boats-light: rgba(94, 196, 212, .5);
+    --black-dark: rgba(59, 59, 59);
+    --black-light: rgba(168, 168, 168);
+    --grey-lightest: #EFEFEF;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
 body {
     background-color: beige;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+form {
+    display:flex;
+    justify-content: center;
 }
 
 table {
@@ -8,6 +51,7 @@ table {
     letter-spacing: 1px;
     font-family: sans-serif;
     font-size: 0.8rem;
+    margin: 0 auto;
 }
 
 td,
@@ -19,25 +63,55 @@ th {
 td {
     text-align: center;
 }
+
+td:hover {
+    font-weight: 500;
+}
+
 tfoot {
     background-color: black;
     color: #fff;
 }
 
+tfoot td {
+    border-style: inset;
+    border: 3px solid black;
+}
+
+
 thead {
     background-color: white;
 }
 
+input {
+    text-align: center;
+    width: 75px;
+}
+
+.nameInput {
+    font-weight: 500;
+    border: 1px solid var(--grey-lightest);
+}
+
 .militaryRow {
-    background-color: #e0abb1;
+    background-color: var(--military-light);
+}
+.militaryRow:hover {
+    background-color: var(--military-dark);
 }
 
 .armadaRow {
-    background-color: rgb(189, 189, 240);
+    background-color: var(--armada-light);
+}
+.armadaRow:hover {
+    background-color: var(--armada-dark);
 }
 
 .coinRow {
-    background-color: rgb(243, 243, 198);
+    background-color: var(--coin-light);
+}
+.coinRow:hover {
+    background-color: var(--coin-dark);
 }
 
 .wonderRow {
@@ -45,23 +119,38 @@ thead {
 }
 
 .blueRow {
-    background-color: lightblue;
+    background-color: var(--blue-light)
+}
+.blueRow:hover {
+    background-color: var(--blue-dark)
 }
 
 .yellowRow {
-    background-color: rgb(241, 241, 151);
+    background-color: var(--yellow-light);
+}
+.yellowRow:hover {
+    background-color: var(--yellow-dark);
 }
 
 .greenRow {
-    background-color: rgb(149, 229, 149);
+    background-color: var(--green-light);
+}
+.greenRow:hover {
+    background-color: var(--green-dark);
 }
 
 .purpleRow {
-    background-color: rgb(173, 141, 204);
+    background-color: var(--purple-light);
+}
+.purpleRow:hover {
+    background-color: var(--purple-dark);
 }
 
 .boatRow {
-    background-color: rgb(155, 224, 217);
+    background-color: var(--boats-light);
+}
+.boatRow:hover {
+    background-color: var(--boats-dark);
 }
 
 .leaderRow {
@@ -69,28 +158,47 @@ thead {
 }
 
 .blackRow {
-    background-color: rgb(163, 154, 154);
+    background-color: var(--black-light);
+}
+.blackRow:hover {
+    background-color: var(--black-dark);
+}
+
+#blackName:hover {
+    color: white;
 }
 
 .totalScore {
     background-color: white;
     color: black;
-
+    font-weight: 600;
 }
+
 .totalScore p {
     color: black;
+    font-weight: 600;
 }
 
 #scoreCardDiv {
     display: flex;
-    margin: 30px;
-    max-width: 100%;
-}
-
-h1 {
-    text-align: center;
+    justify-content: center;
 }
 
 .scoreInput {
-    width: 100px;
+    width: 75px;
+}
+
+@media screen and (max-width: 425px) {
+    .scoreInput {
+        width: 30px;
+    }
+
+    input {
+        text-align: center;
+        width: 30px;
+    }
+
+    td {
+        padding: 2px;
+    }
 }
