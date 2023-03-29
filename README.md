@@ -1,5 +1,5 @@
 # 7Wonders Calculator
-This is a JavaScript calculator used to dynamically calculate the scores in the 7 Wonders board game[7 Wonders](https://pages.github.com/) by Repos productions.
+This is a JavaScript calculator used to dynamically calculate the scores in the [7 Wonders](https://pages.github.com/) board game by Repos productions.
 
 This is a game that I frequently play with friends, to the point that we've run out of the paper scorepads that come with the game. For this reason it seemed like a fun little project to put together as not only helped me practice, but I can also share it with friends! 
 
