@@ -18,6 +18,7 @@
     --black-dark: rgba(59, 59, 59);
     --black-light: rgba(168, 168, 168);
     --grey-lightest: #EFEFEF;
+    --background: #f5f5dc;
 }
 
 * {
@@ -31,9 +32,19 @@ img {
 }
 
 body {
-    background-color: beige;
     width: 100vw;
+    background-image: url("img/7-wonders-bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--background);
 }
+
+.wonders-wrapper {
+
+   
+}
+
 
 h1 {
     text-align: center;
@@ -201,4 +212,9 @@ input {
     td {
         padding: 2px;
     }
+
+    th {
+        padding: 5px 5px;
+    }
+    
 }
