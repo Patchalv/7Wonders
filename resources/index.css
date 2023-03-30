@@ -213,6 +213,14 @@ input {
     width: 75px;
 }
 
+.author {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
 @media screen and (max-width: 425px) {
     .scoreInput {
         width: 30px;
