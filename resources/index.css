@@ -26,24 +26,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
-img {
+.logo {
     max-width: 300px;
     margin: 0 auto;
     display: block;
 }
 
 body {
-    width: 100vw;
+    /*width: 100vw;*/
     background-image: url("img/7-wonders-bg2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--background);
-}
-
-.wonders-wrapper {
-
-   
 }
 
 
@@ -219,6 +214,7 @@ input {
     width: 100%;
     text-align: center;
     font-size: 12px;
+    padding-top: 30px;
 }
 
 @media screen and (max-width: 425px) {
